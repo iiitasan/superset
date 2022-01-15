@@ -31,6 +31,15 @@ jobs:
       - name: Set up chart-testing
         uses: ./.github/actions/chart-testing-action
 
+      - name: Run pwd
+        run: pwd
+      
+      - name: list file
+        run: ls -ltr
+        
+      - name: list helm file
+        run: ls -ltr helm/superset
+
       - name: Run chart-testing (list-changed)
         id: list-changed
         run: |

@@ -14,6 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+{{
 apiVersion: v2
 appVersion: "1.0"
 description: Apache Superset is a modern, enterprise-ready business intelligence web application

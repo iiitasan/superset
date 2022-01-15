@@ -47,7 +47,7 @@ configFromSecret: '{{ template "superset.fullname" . }}-config'
 
 ## The name of the secret which we will use to populate env vars in deployed pods
 ## This can be useful for secret keys, etc.
-##
+##$$
 envFromSecret: '{{ template "superset.fullname" . }}-env'
 ## This can be a list of template strings
 envFromSecrets: []
